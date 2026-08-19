@@ -131,15 +131,15 @@ Based on the analysis:
 
 ### Executive Overview
 
-![Executive Overview](Screenshots/executive-overview.png)
+![Executive Overview](Screenshots/executive overview.png)
 
 ### Profitability Analysis
 
-![Profitability Analysis](Screenshots/profitability-analysis.png)
+![Profitability Analysis](Screenshots/profitability analysis.png)
 
 ### Sales Trends
 
-![Sales Trends](Screenshots/sales-trends.png)
+![Sales Trends](Screenshots/sales trends.png)
 
 ---
 
@@ -157,13 +157,13 @@ superstore-sales-powerbi-dashboard/
 │   └── analysis_queries.sql
 │
 ├── Data/
-│   ├── superstore.csv
-│   └── superstore_real.db
+│   ├── superstore_powerbi_import.csv
+│  
 │
 └── Screenshots/
-    ├── executive-overview.png
-    ├── profitability-analysis.png
-    └── sales-trends.png
+    ├── executive overview.png
+    ├── profitability analysis.png
+    └── sales trends.png
 ```
 
 ---
