@@ -6,6 +6,8 @@ An end-to-end data analytics project using **SQL and Power BI** to analyze sales
 
 **Where is the business profitable, where is it losing money, and what factors may be contributing to weak profitability?**
 
+---
+
 ## Project Overview
 
 This project analyzes Superstore sales data from **2014–2017** across the United States.
@@ -131,22 +133,22 @@ Based on the analysis:
 
 ### Executive Overview
 
-![Executive Overview](Screenshots/executive overview.png)
+![Executive Overview](./Screenshots/executive%20overview.png)
 
 ### Profitability Analysis
 
-![Profitability Analysis](Screenshots/profitability analysis.png)
+![Profitability Analysis](./Screenshots/profitability%20analysis.png)
 
 ### Sales Trends
 
-![Sales Trends](Screenshots/sales trends.png)
+![Sales Trends](./Screenshots/sales%20trends.png)
 
 ---
 
 ## Repository Structure
 
 ```text
-superstore-sales-powerbi-dashboard/
+Superstore-Sales-PowerBI-Dashboard/
 │
 ├── README.md
 │
@@ -157,8 +159,7 @@ superstore-sales-powerbi-dashboard/
 │   └── analysis_queries.sql
 │
 ├── Data/
-│   ├── superstore_powerbi_import.csv
-│  
+│   └── superstore_powerbi_import.csv
 │
 └── Screenshots/
     ├── executive overview.png
@@ -172,35 +173,39 @@ superstore-sales-powerbi-dashboard/
 
 ### SQL Analysis
 
-The SQL queries can be executed using SQLite or opened in a SQLite-compatible database tool.
+The SQL queries can be reviewed in:
 
-```bash
-sqlite3 Data/superstore_real.db < SQL/analysis_queries.sql
-```
+`SQL/analysis_queries.sql`
 
-Alternatively, open `Data/superstore_real.db` using a SQLite-compatible tool such as DB Browser for SQLite.
+The queries are written for **SQLite** and cover sales trends, profitability, customer performance, regional analysis, and shipping delays.
+
+The original Superstore dataset used for the analysis is included in the `Data` folder.
 
 ### Power BI Dashboard
 
-Open `PowerBI/Superstore_Sales_Dashboard.pbix` using **Power BI Desktop** to explore the interactive dashboard, filters, KPIs, and visualizations.
+Open:
+
+`PowerBI/Superstore_Sales_Dashboard.pbix`
+
+using **Power BI Desktop** to explore the interactive dashboard, filters, KPIs, and visualizations.
 
 ---
 
 ## Skills Demonstrated
 
-**Data Analysis**
+### Data Analysis
 
 Exploratory Data Analysis, KPI Analysis, Profitability Analysis, Trend Analysis, Business Insights
 
-**SQL**
+### SQL
 
 CTEs, Aggregations, Joins, Window Functions, `LAG()`, `RANK()`, Date Calculations
 
-**Power BI**
+### Power BI
 
 Dashboard Development, Data Visualization, Interactive Filters, KPI Cards, Matrix Analysis, Trend Analysis
 
-**DAX**
+### DAX
 
 Calculated Measures, Profit Margin, Order Metrics
 
