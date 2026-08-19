@@ -131,15 +131,15 @@ Based on the analysis:
 
 ### Executive Overview
 
-![Executive Overview](Screenshots/executive overview.png)
+![Executive Overview](./Screenshots/executive%20overview.png)
 
 ### Profitability Analysis
 
-![Profitability Analysis](Screenshots/profitability analysis.png)
+![Profitability Analysis](./Screenshots/profitability%20analysis.png)
 
 ### Sales Trends
 
-![Sales Trends](Screenshots/sales trends.png)
+![Sales Trends](./Screenshots/sales%20trends.png)
 
 ---
 
